@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+
+
+.root {
+    -fx-font-family: "DynaPuff";
+    -fx-background-color: transparent;
+
+
+}
+
+
+.mainWindow {
+    -fx-background-image: url("welcomePag.png");
+    -fx-font-family: "DynaPuff";
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+
+.gameWindow {
+     -fx-background-image: url("gamescn.png");
+     -fx-font-family: "DynaPuff";
+     -fx-background-size: cover;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+ }
+
+
+
+    .button {
+        -fx-font-family: "DynaPuff";
+        -fx-background-image: url("Bwhite.png");
+        -fx-background-color: transparent;
+        -fx-background-size: cover;
+        -fx-background-repeat: no-repeat;
+        -fx-text-fill: black;
+
+
+    }
+
+    .button:hover {
+        -fx-font-family: "DynaPuff";
+        -fx-background-image: url("button.png");
+        -fx-background-color: transparent;
+        -fx-background-size: cover;
+        -fx-background-repeat: no-repeat;
+        -fx-text-fill: white;
+
+
+    }
+
+    .help {
+        -fx-font-family: "DynaPuff";
+        -fx-background-image: url("help.png");
+        -fx-background-color: transparent;
+        -fx-background-size: cover;
+        -fx-background-repeat: no-repeat;
+        -fx-text-fill: black;
+    }
+
+    .help:hover {
+        -fx-font-family: "DynaPuff";
+        -fx-background-image: url("help2.png");
+        -fx-background-color: transparent;
+        -fx-background-size: cover;
+        -fx-background-repeat: no-repeat;
+        -fx-text-fill: black;
+}
+
+    .text-field{
+        -fx-font-family: "DynaPuff";
+        -fx-border-color: black;
+        -fx-border-width: 2px;
+        -fx-background-color: transparent;
+        -fx-background-size: cover;
+        -fx-background-repeat: no-repeat;
+        -fx-text-fill: black;
+
+    }
+
+    .grid-pane {
+    -fx-background-color: white;
+    -fx-border-color: #2c3e50;
+    -fx-border-width: 2px;
+}
+
+
